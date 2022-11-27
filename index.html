@@ -195,7 +195,7 @@
                         myWin[k] = _myWin[i];//这个位置对方可能赢
                     }
                 }
-                resultTxt.innerHTML = '--益智五子棋--';
+                resultTxt.innerHTML = '--五子棋--';
                 returnAble = true;
                 backAble = false;
             }
@@ -212,7 +212,7 @@
                         computerWin[k] = 6;//这个位置对方不可能赢
                     }
                     if(myWin[k] == 5){
-                        resultTxt.innerHTML = '恭喜，你赢了！';
+                        resultTxt.innerHTML = '恭喜你 胜利了！';
                         over = true;
                     }
                 }
@@ -226,7 +226,7 @@
                         myWin[k] = 6;//这个位置对方不可能赢
                     }
                     if(computerWin[k] == 5){
-                        resultTxt.innerHTML = 'o(╯□╰)o，计算机赢了，继续加油哦！';
+                        resultTxt.innerHTML =继续加油哦！';
                         over = true;
                     }
                 }
@@ -310,7 +310,7 @@
                         _myWin[k] = myWin[k];
                         myWin[k] = 6;//这个位置对方不可能赢了
                         if(computerWin[k] == 5){
-                            resultTxt.innerHTML = 'o(╯□╰)o，计算机赢了，继续加油哦！';
+                            resultTxt.innerHTML = 继续加油哦！';
                             over = true;
                         }
                     }
